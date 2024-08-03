@@ -4,10 +4,6 @@ import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
 
-
-
-
-
 function App() {
   const [notes, setNotes] = useState([]);
 
@@ -46,8 +42,3 @@ function App() {
 }
 
 export default App;
-
-// async function get_notes() {
-//   notes = await 
-//   const result = await axios.get(API_URL + "/secrets/" + searchId, config);
-// }
